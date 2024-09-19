@@ -1,0 +1,38 @@
+div{
+    place-items: center;
+    /* border: 2px red solid;*/
+    background-color: rgb(230, 230, 230);
+    width: 600px;
+    height: 550px;
+    display: grid;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(134, 134, 134);
+}
+button{
+    background-color: rgb(0, 17, 255);
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;    
+    margin: 5px;
+}
+main{
+    grid-area: 'main';
+    background-color: black;
+}
+
+body{
+    grid-template-areas: 'main main main';
+    grid-template-columns: auto auto auto;
+}
